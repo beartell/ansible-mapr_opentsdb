@@ -11,7 +11,7 @@ You need a MapR cluster. This will work with either the free community edition o
 Role Variables
 --------------
 
-Set the hbase version and hadoop version using hbase_version and hadoop_version.
+Set the hbase version and hadoop version using hbase_version, hadoop_version and also mapr_version
 
 Dependencies
 ------------
@@ -23,7 +23,7 @@ Example Playbook
 
 	- hosts: hbasemaster
 	  roles:
-	    - { role: mapr-opentsdb, hbase_version: 1.1.1, hadoop_version: 2.7.0 }
+	    - { role: mapr-opentsdb, hbase_version: 1.1.1, hadoop_version: 2.7.0, mapr_version: v5.1 }
 
 License
 -------
