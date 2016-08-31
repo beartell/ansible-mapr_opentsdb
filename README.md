@@ -23,7 +23,7 @@ Example Playbook
 
 	- hosts: hbasemaster
 	  roles:
-	    - { role: mapr-opentsdb, hbase_version: 0.98.7, hadoop_version: 0.20.2 }
+	    - { role: mapr-opentsdb, hbase_version: 1.1.1, hadoop_version: 2.7.0 }
 
 License
 -------
@@ -33,4 +33,4 @@ MIT
 Author Information
 ------------------
 
-Vince Gonzalez
+Vince Gonzalez, Buğra Çakır
